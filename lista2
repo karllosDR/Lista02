@@ -1,57 +1,83 @@
 
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@karllosDR
+
+0
+0
+
+    0
+
+maxborges0000/Lista-02
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Security
+Insights
+Lista-02/questão08.c
+@maxborges0000 maxborges0000 Update questão08.c a036e3d 36 minutes ago
+45 lines (37 sloc) 707 Bytes
 #include <stdio.h>
-void main(){
-int dia, mes, ano, diaav, mesav, anoav, a, dm, d,a1;
-            dia = 30;
-            mes = 05;
-            ano = 2019;
-            printf("Digite o Dia do seu aniversario: ");
-            scanf("%d", &diaav);
-            printf("Digite o mês do seu aniversario (Um unico digito): ");
-            scanf("%d", &mesav);
-            printf("Digite o ano do seu aniversario: ");
-            scanf("%d", &anoav);
-            a1=ano - anoav;
-            a=((a1-2)*365);
-            int nasc, atual;
-            if (mesav==2){
-                d=31+(diaav-1);
-            }
-            if (mesav==3){
-                d=59+(diaav-1);
-            }
-            if (mesav==4){
-                d=90+(diaav-1);
-            }
-            if (mesav==5){
-                d=120+(diaav-1);
-            }
-            if (mesav==6){
-                d=151+(diaav-1);
-            }
-            if (mesav==7){
-                d=181+(diaav-1);
-            }
-            if (mesav==8){
-                d=212+(diaav-1);
-            }
-            if (mesav==9){
-                d=242+(diaav-1);
-            }
-            if (mesav==10){
-                d=273+(diaav-1);
-            }
-            if (mesav==11){
-                d=303+(diaav-1);
-            }
-            if (mesav==12){
-                d=334+(diaav-1);
-            }  
-                    
-                
-            
-            int fil,p;
-            fil = a + d;
-            printf("VocÊ viveu %d dias ate hoje. \n",fil);
-            scanf("%d",&p);
+
+int b(int n1){
+
+    int i = 0, j, vet[10];
+
+    while(n1 >= 2){
+        if (n1 % 2 == 0) {
+            vet[i] = 0;
+            n1 = n1 / 2;
+        }
+        else {
+            vet[i] = 1;
+            n1 = n1 / 2;
+        }
+            i++;
+    }
+
+    vet[i] = 1;
+    int a = 0;
+    char r[i+1];
+    for(j = i; j >= 0; j--){
+        vet[j];
+        if(vet[j] == 1){
+            r[a] = '1';
+        }if(vet[j] == 0){
+            r[a] = '0';
+        }
+
+        a++;
+    }
+return atoi(r);
 }
+
+int main()
+{
+
+int n1;
+char resutado[10];
+    printf("Digite um número:");
+    scanf("%d",&n1);
+    printf(" Valor em Binário: %d ", b(n1));
+return 0;
+}
+
+    © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
