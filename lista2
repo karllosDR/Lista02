@@ -1,27 +1,4 @@
 
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@karllosDR
-
-0
-0
-
-    0
-
-maxborges0000/Lista-02
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Security
-Insights
-Lista-02/questão08.c
-@maxborges0000 maxborges0000 Update questão08.c a036e3d 36 minutes ago
-45 lines (37 sloc) 707 Bytes
 #include <stdio.h>
 
 int b(int n1){
@@ -67,17 +44,5 @@ char resutado[10];
 return 0;
 }
 
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
 
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
