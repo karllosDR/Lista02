@@ -13,3 +13,5 @@ void main(){
 
 	for(int i=strlen(vetor)-1; i>=0; i--){
 	printf("%c",vetor[i]);
+
+}
